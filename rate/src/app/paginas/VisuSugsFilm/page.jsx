@@ -1,6 +1,6 @@
 'use client';
 import { useState } from "react";
-import styles from './v.module.css';
+import styles from './visu_sugs_filme.module.css';
 import Header from "@/components/header/Header";
 import LateralBar from "@/components/lateralbar/lateralBar";
 import { BiSolidLike } from "react-icons/bi";
