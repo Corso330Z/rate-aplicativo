@@ -112,13 +112,13 @@ const Login = () => {
 
         <div className={styles.opcoes_login}>
           <a href="#" className={styles.login_google}>
-            <img src="img/google1.png" alt="Google" className={styles.icone}/>
+            <img src="/img/google1.png" alt="Google" className={styles.icone}/>
           </a>
           <a href="#" className={styles.login_facebook}>
-            <img src="img/facebook.png" alt="Facebook" className={styles.icone} />
+            <img src="/img/facebook.png" alt="Facebook" className={styles.icone} />
           </a>
           <a href="#" className={styles.login_instagram}>
-            <img src="img/instagram.png" alt="Instagram" className={styles.icone} />
+            <img src="/img/instagram.png" alt="Instagram" className={styles.icone} />
           </a>
         </div>
       </div>
