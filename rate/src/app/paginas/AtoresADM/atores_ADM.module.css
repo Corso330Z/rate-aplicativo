@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@253&family=Nerko+One&family=Protest+Guerrilla&display=swap');
+
+
+
+.body {
+    background-color: #474747;
+}
+
+/* Blocos */
+.blocos_ato {
+    padding-top: 122px;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5vh ;
+}
+
+.info_ato {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.atores {
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.generos h1 {
+    font-size: 20px;
+}
+
+.card_blocos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.blocos {
+    background-color: #737373;
+    /* width: 9vw;
+    height: 28vh; */
+    height: 240px;
+    width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+
+
+.h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+/* Botão Adicionar */
+.card_adc {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4%;
+}
+
+#btn_adc {
+    background-color: #52057B;
+    width: max-content;
+    padding: 12px;
+    border-radius: 0px;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 15px;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn_adc:hover {
+    background-color: #7e198f;
+}

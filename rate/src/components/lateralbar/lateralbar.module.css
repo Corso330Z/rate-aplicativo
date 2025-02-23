@@ -1,0 +1,70 @@
+/* Barra lateral */
+.lateral_bar {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 5%;
+    min-height: 40%;
+    background-color: #52057b;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.nav_botoes_lateral {
+    height: 80%;
+    width: 100%;
+    padding-top: 20%;
+    gap: 40%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.botoes_acima {
+    height: 50%;
+    display: flex;
+    gap: 2%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes {
+    justify-self: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    margin-top: 100%;
+    margin-bottom: -62%;
+}
+
+.ultimo_botao {
+    justify-self: center;
+    align-self: center;
+}
+
+
+@media only screen and (max-width: 405px) {
+    .lateral_bar {
+        display: block;
+    }
+    .rate {
+        font-size: 22px;
+    }
+    .movie {
+        font-size: 8px;
+    }
+    #lupa {
+        font-size: 20px;
+    }
+    .botoes_perfil img {
+        height: 29px;
+        width: 29px;
+    }
+    .botoes {
+        width: 25px;
+        height: 25px;
+    }
+}

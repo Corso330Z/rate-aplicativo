@@ -1,0 +1,316 @@
+/* Garantindo que o body ocupe toda a tela */
+.body {
+    background-color: #474747;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ajustando o main para ocupar todo o espaço disponível */
+.main {
+    flex: 1; /* Ocupa o restante do espaço disponível */
+    display: flex;
+    flex-direction: column;
+    background-color: #474747; /* Garantindo que a cor de fundo seja a mesma */
+}
+
+.botaoVoltar {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    
+}
+
+.setaVoltar {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 14vh;
+    left: 8vw;
+}
+
+/* Ajuste no bloco de filmes para ocupar o espaço corretamente */
+.blocos_filmes {
+    padding-top: 122px;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3vh;
+}
+
+/* Restante dos ajustes de layout (parte1, parte2, etc.) */
+.movie_details {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Impede quebra de linha */
+    justify-content: space-between;
+    color: white;
+}
+.adc_remov_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.divInfoButton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1; 
+    width: auto; 
+    margin-top: 20%;
+    margin-left: 3%;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.part1, .parte2 {
+    width: 27.5%;
+}
+
+/* .divInfoButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+} */
+
+.adicionar{
+    margin-left: 2%;
+}
+.remover{
+    margin-top: 8%;
+}
+.adc_button{
+    background-color: #52057b;
+    width: 85px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px ;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 15px; 
+    border: 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    cursor: pointer;
+    margin-left: 30%;
+    top: 0;
+}
+.remove_button{
+    background-color: #B60B0D;
+    width: 85px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px ;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 15px; 
+    border: 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    cursor: pointer;
+    margin-left: 80%;
+}
+.avaliacao {
+    display: flex; 
+    gap: 10px; 
+    margin-left: 14%;
+    margin-top: 100%;
+    background-color: transparent;
+    border: none;
+} 
+
+
+.parte3 {
+    width: 25%;
+    align-items: flex-start;
+}
+
+
+.movi_name {
+    margin-left:-10%;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+.postera_frame {
+    width: 20vw;
+    height: 60vh;
+    background-color: #5c5c5c;
+    border-radius: 10px;
+    margin-left: -10%;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+
+.nam{
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+   
+}
+
+.livre {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.use_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A8A8A8; 
+    padding: 15px ;
+    width: max-content;
+    border-radius: 25px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 80%;
+}
+
+.profile_icon {
+    width: 50px;
+    height: 50px;
+    background-color: #52057b; 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    font-size: 20px;
+    margin-right: 10px; 
+}
+
+
+.username {
+    font-size: 16px;
+    font-weight: bold;
+    color: black; 
+   
+
+}
+
+.perfil {
+    width: 25px;
+    height: 25px;
+}
+.fasfa_thumbs_down {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); 
+    border-radius: 5px; 
+    padding: 10px;
+  
+}
+
+.fasfa_thumbs_up{
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); 
+    border-radius: 5px; 
+    padding: 10px;
+
+
+}
+.nk{
+    background-color: #474747;
+    border: none;
+}
+.k{
+    background-color: #474747;
+    border: none;
+}
+
+
+
+/* button {
+    font-size: 35px;
+    color: white;
+    background-color: #474747;
+    cursor: pointer;
+} */
+
+.likes {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25;
+}
+
+.fasfa_thumbs_down {
+    background-color: transparent;
+    border: none;
+    font-size: 34px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.2s ease-in-out;
+  
+}
+
+.fasfa_thumbs_up {
+    background-color: transparent;
+    border: none;
+    font-size: 34px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.likeCount{
+    margin-top: -30%;
+    font-size: 20px;
+}
+.nk {
+    background-color: transparent;
+    border: none;
+    color: white; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+.k{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}

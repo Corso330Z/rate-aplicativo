@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@253&family=Nerko+One&family=Protest+Guerrilla&display=swap');
+
+.body {
+    background-color: #474747;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.botaoVoltar {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    display: flex;
+}
+
+.setaVoltar {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    position: fixed;
+    top: 12vh;
+    left: 7vw;
+}
+
+.filminho {
+    padding-top: 140px;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 100%;
+    background-color: #474747;
+}
+
+.informacao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3vh;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mov_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    gap: 4vh;
+}
+
+.detalhes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.infoDados {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+
+.parte1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.parte2 {
+    margin-top: -4vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+
+.mov_text {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.movie_titulo {
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    color: #FFF;
+}
+
+.movie_ava {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rating_strela {
+    font-size: 20px;
+    color: gold;
+}
+
+.rating_valor {
+    font-size: 18px;
+    color: white;
+}
+
+.movi_imag {
+    width: 250px;
+    height: 350px;
+    background-color: #5c5c5c;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+
+.livr {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.comments_secao {
+    margin-top: 5vh;
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.comment_caixa {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.enviar {
+    background-color: #52057b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.removerr {
+    background-color: #B60B0D;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    flex: 1;
+    margin-right: 5%;
+}
+.remove_botao{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.mod_button {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.removerr {
+    background-color: #B60B0D;
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: none;
+    color: white;
+}
+
+.remove_botao:hover {
+    background-color: #df1013;
+}
+
+.modificarr:hover {
+    background-color: #959595;
+}
+
+.modificarr {
+    background-color: #737373;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    flex: 1;
+}
+
+.comments_section h2 {
+    font-size: 22px;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.coment {
+    background-color: #545454;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.input {
+    background-color: #545454;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+}
+
+.blocos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.movies {
+    background-color: #737373;
+    height: 32vh;
+    width: 15vw;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .informacao {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .mov_info {
+        width: 50%;
+    }
+
+    .movie_titulo {
+        text-align: left;
+    }
+
+    .movie_ava {
+        justify-content: flex-start;
+    }
+
+    .movi_imag {
+        width: 225px;
+        height: 325px;
+    }
+
+    .comments_secao {
+        width: 45%;
+        margin-left: 10%;
+        margin-top: 3vh;
+    }
+
+
+    .removerr, .modificarr {
+        flex: 1;
+        margin-bottom: 10px;
+    }
+
+    .comment_caixa {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .informacao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mov_info {
+        width: 100%;
+    }
+
+    .movie_titulo {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .movie_ava {
+        justify-content: center;
+    }
+
+    .movi_imag {
+        width: 225px;
+        height: 325px;
+    }
+
+    .comments_secao {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .removerr {
+        flex: 1;
+        margin-bottom: 10px;
+    }
+
+    .comments_section h2 {
+        font-size: 20px;
+    }
+
+    .coment {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .movi_imag {
+        width: 225px;
+        height: 325px;
+    }
+
+    .comments_secao {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .removerr {
+        flex: 1;
+        margin-bottom: 10px;
+    }
+
+    .comments_section h2 {
+        font-size: 18px;
+    }
+
+    .coment {
+        width: 100%;
+    }
+}

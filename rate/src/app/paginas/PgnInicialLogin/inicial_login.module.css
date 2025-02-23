@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@253&family=Nerko+One&family=Protest+Guerrilla&display=swap');
+
+.body {
+    background-color: #474747;
+}
+
+/* Barra lateral */
+.lateral_bar {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 5%;
+    min-height: 40%;
+    background-color: #52057b;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.nav_botoes_lateral {
+    height: 80%;
+    width: 100%;
+    padding-top: 20%;
+    gap: 40%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.botoes_acima {
+    height: 50%;
+    display: flex;
+    gap: 2%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes {
+    justify-self: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    margin-top: 100%;
+    margin-bottom: -62%;
+}
+
+.ultimo_botao {
+    justify-self: center;
+    align-self: center;
+}
+
+/* Blocos */
+.blocos_filmes {
+    padding-top: 122px;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5vh;
+}
+
+.info_inicio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.tit_film {
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tit_film h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tit_ator {
+    margin-top: 5vh;
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tit_ator h1 {
+    font-size: 20px;
+}
+
+.card_blocos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.blocos {
+    background-color: #737373;
+    height: 240px;
+    width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+
+.btn_login {
+    background-color: #52057b;
+    height: 35px;
+    width: 70px;
+    padding: 4px;
+    border-radius: 7px ;
+    color: rgb(253, 253, 253);
+    font-size: 17px; 
+    border: 0;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+#btn_login:hover {
+    background-color: #7e198f;
+}
+
+/* Contêiner para alinhar o botão à direita */
+.loginContainer {
+    display: flex;
+    justify-content: flex-end; /* Alinha o botão à direita */
+    width: 100%;
+    margin-bottom: 10px; /* Ajuste opcional para espaçamento abaixo do botão */
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .rate {
+        font-size: 26px;
+    }
+    .movie {
+        font-size: 10px;
+    }
+    .lupa {
+        font-size: 26px;
+    }
+    .botoes_perfil img {
+        height: 37px;
+        width: 37px;
+    }
+    .botoes {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    .rate {
+        font-size: 26px;
+    }
+    .movie {
+        font-size: 10px;
+    }
+    .lupa {
+        font-size: 22px;
+    }
+    .botoes_perfil img {
+        height: 34px;
+        width: 34px;
+    }
+    .botoes {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .rate {
+        font-size: 25px;
+    }
+    .movie {
+        font-size: 9px;
+    }
+    .lupa {
+        font-size: 22px;
+    }
+    .botoes_perfil img {
+        height: 31px;
+        width: 31px;
+    }
+    .botoes {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    .rate { 
+        font-size: 22px;
+    }
+    .movie {
+        font-size: 8px;
+    }
+    .lupa {
+        font-size: 20px;
+    }
+    .botoes_perfil img {
+        height: 29px;
+        width: 29px;
+    }
+    .botoes {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media only screen and (max-width: 405px) {
+    .lateral_bar {
+        display: block;
+    }
+    .rate {
+        font-size: 22px;
+    }
+    .movie {
+        font-size: 8px;
+    }
+    .lupa {
+        font-size: 20px;
+    }
+    .botoes_perfil img {
+        height: 29px;
+        width: 29px;
+    }
+    .botoes {
+        width: 25px;
+        height: 25px;
+    }
+}

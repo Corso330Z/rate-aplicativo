@@ -1,0 +1,129 @@
+.body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    background-color: #737373;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+.rate_header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-align: left;
+    color: #52057B;
+}
+
+.rate_header h1 {
+    margin: 0;
+    font-size: 40px; 
+    font-weight: 400;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.rate_header h2 {
+    margin: 0;
+    margin-left: 40px;
+    color: #52057B;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.titulo {
+    font-weight: 400;
+    color: white;
+}
+
+.criarConta_container {
+    background-color: #474747;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+.criarConta_container h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.form_criar {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input,
+.select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #737373;
+    font-size: 14px;
+    outline: none;
+}
+
+.genero_opcoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.genero_box {
+    flex: 1;
+    background-color: #444;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 5px;
+}
+
+.genero_box:hover {
+    background-color: white;
+}
+
+.data_nascimento {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data_nascimento select {
+    width: 32%;
+}
+
+.button {
+    width: 100%;
+    padding: 12px;
+    background-color: #52057B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #6a1b9a;
+}

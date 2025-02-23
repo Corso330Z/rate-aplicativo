@@ -1,0 +1,135 @@
+.header {
+    width: 100%;
+    height: 8vh;
+    min-height: 4vh;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    right: 0;
+}
+
+.cor1 {
+    background-color: #52057b;
+    height: 7vh;
+    min-height: 70px;
+    width: 23.75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.rate {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: "Archivo Black", sans-serif;
+    margin-left: 5%;
+}
+
+.movie {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-left: 12%;
+}        
+
+.cinzacl {
+    background-color: #737373;
+    height: 7vh;
+    min-height: 70px;
+    width: 23.75%;
+}
+
+.cinzaes {
+    background-color: #545454;
+    height: 7vh;
+    min-height: 70px;
+    width: 23.75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.botaoPesq {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.lupa {
+    left: 0;
+    margin-left: 15px;
+    color: black;
+}
+
+.searchCard {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    background: #737373;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+}
+
+.closeButton {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.preto {
+    background-color: #000000;
+    height: 7vh;
+    min-height: 70px;
+    width: 23.75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.botoes_perfil {
+    width: 80%;
+    height: 7vh;
+    margin-left: 12%;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.botoes_perfil button {
+    background-color: #000000;
+    border: 0;
+}
+
+.botoes_perfil img {
+    height: 40px;
+    width: 40px;
+}

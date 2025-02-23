@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@253&family=Nerko+One&family=Protest+Guerrilla&display=swap');
+
+.body {
+    background-color: #474747;
+}
+
+/* Blocos de filmes */
+.blocos_filmes {
+    padding-top: 122px;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5vh;
+}
+
+.info_filme {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.filmes {
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.filmes h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Blocos de filme */
+.card_blocos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.blocos {
+    background-color: #737373;
+    height: 240px;
+    width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Botão Adicionar */
+.card_adc {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4%;
+}
+
+#btn_adc {
+    background-color: #52057B;
+    width: max-content;
+    padding: 12px;
+    border-radius: 0px;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 15px;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn_adc:hover {
+    background-color: #7e198f;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 767px) {
+    .rate {
+        font-size: 26px;
+    }
+    .movie {
+        font-size: 10px;
+    }
+    .lupa {
+        font-size: 26px;
+    }
+    .botoes_perfil img {
+        height: 37px;
+        width: 37px;
+    }
+    .botoes {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .rate {
+        font-size: 22px;
+    }
+    .movie {
+        font-size: 8px;
+    }
+    .lupa {
+        font-size: 20px;
+    }
+    .botoes_perfil img {
+        height: 29px;
+        width: 29px;
+    }
+    .botoes {
+        width: 25px;
+        height: 25px;
+    }
+}

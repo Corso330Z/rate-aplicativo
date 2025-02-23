@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@253&family=Nerko+One&family=Protest+Guerrilla&display=swap');
+
+
+.body {
+    background-color: #474747;
+    height: 100%;
+    width: 100%;
+}
+
+/* Blocos */
+.blocos_amgs {
+    padding-top: 122px;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5vh ;
+}
+
+.info_comen {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.comen_pes {
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+}
+
+.comen_pes h1 {
+    font-size: 18px;
+}
+
+.comen_amigos {
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 5vh;
+}
+
+.comen_amigos h1 {
+    font-size: 18px;
+}
+
+.card_blo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.bloco {
+    background-color: #A8A8A8;
+    /* width: 9vw;
+    height: 28vh; */
+    height: 150px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.perfi {
+    height: 80px;
+    width: 80px;
+}
+
+.bloco_in {
+    background-color: #A8A8A8;
+    width: 60%;
+    height: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.just{
+    color: #000000;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.vizu_amg{
+    margin-top: 3%;
+    border-radius: 5%;
+    margin: 2%;
+    width: 70%;
+    height: 25px;
+    color: #FFF;
+    font-size: 12px;
+    padding: 3%;
+    margin-left: 10%;
+   background-color: #545454;
+   border: none;
+
+}
+.rem_amg{
+    border-radius: 5%;
+    margin: 2%;
+    width: 70%;
+    height: 25px;
+    color: #FFF;
+    font-size: 12px;
+    padding: 3%;
+    margin-left: 10%;
+    background-color: #545454;
+    border: none;
+}
+.h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.card_button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4%;                                                                                                                                                                                                                                                                     
+}
+
+#btn_modificar {
+    background-color: #737373;
+    width: 90px;
+    padding: 12px;
+    border-radius: 15px ;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 15px; 
+    border: 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    cursor: pointer;
+}
+
+#btn_modificar:hover {
+    background-color: #959595;
+}
+
+#btn_remover {
+    background-color: #B60B0D;
+    width: 85px;
+    padding: 12px;
+    border-radius: 15px ;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 15px; 
+    border: 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    cursor: pointer;
+    margin-left: 3%;
+}
+
+#btn_remover:hover {
+    background-color: #df1013;
+}

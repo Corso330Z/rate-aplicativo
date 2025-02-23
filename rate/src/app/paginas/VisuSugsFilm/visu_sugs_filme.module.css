@@ -1,0 +1,274 @@
+
+.body {
+    background-color: #474747;
+    height: 100vh;
+}
+
+.botaoVoltar {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    
+}
+
+.setaVoltar {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 14vh;
+    left: 8vw;
+}
+
+
+/* Blocos */
+.blocos_filmes {
+    padding-top: 122px;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3vh ;
+}
+
+.bac_button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 34px;
+    cursor: pointer;
+    margin-left: -45%;
+
+
+}
+
+.bac_button:hover {
+    color: #ccc;
+}
+
+.movie_details {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+
+.parte1{
+    width: 27.5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.parte2{
+    width: 27.5%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: -23%;
+}
+
+.parte3{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.movi_name {
+    margin-left:-10%;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+.postera_frame {
+    width: 20vw;
+    height: 60vh;
+    background-color: #5c5c5c;
+    border-radius: 10px;
+    margin-left: -10%;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+
+.nam{
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+   
+}
+
+
+
+.use_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A8A8A8; 
+    padding: 15px ;
+    width: max-content;
+    border-radius: 25px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 80%;
+}
+
+.profile_icon {
+    width: 50px;
+    height: 50px;
+    background-color: #52057b; 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    font-size: 20px;
+    margin-right: 10px; 
+}
+.ok{
+    font-size: 180%;
+}
+.nok{
+    font-size: 180%;
+}
+
+.username {
+    font-size: 16px;
+    font-weight: bold;
+    color: black; 
+}
+
+#arroba{
+    text-decoration: none;
+}
+
+.perfil {
+    width: 25px;
+    height: 25px;
+}
+
+.fasfa_thumbs_down {
+    background-color: transparent;
+    border: none;
+    font-size: 34px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.2s ease-in-out;
+  
+}
+
+.fasfa_thumbs_up {
+    background-color: transparent;
+    border: none;
+    font-size: 34px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.likeCount{
+    margin-top: -30%;
+    font-size: 20px;
+}
+.nk {
+    background-color: transparent;
+    border: none;
+    color: white; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+.k{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+
+.adicionar{
+    margin-left: -170%;
+}
+.remover{
+    margin-top: -55%;
+}
+.adc_button{
+    background-color: #52057b;
+    width: 85px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px ;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 15px; 
+    border: 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    cursor: pointer;
+    margin-left: -30%;
+}
+
+.avaliacao {
+    display: flex; 
+    gap: 10px; 
+    margin-left:18% ;
+    margin-top: -2%;
+    background-color: transparent;
+    border: none;
+} 
+
+
+
+.livre {
+    width: 35px; 
+    height: 30px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-top: 5%;
+
+}
+
+
+/* button {
+    font-size: 35px;
+    color: white;
+    background-color: #474747;
+    cursor: pointer;
+} */
+
+.likes {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25;
+}

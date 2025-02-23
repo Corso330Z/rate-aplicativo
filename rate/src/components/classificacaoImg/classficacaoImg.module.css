@@ -1,0 +1,77 @@
+
+.ícone1{
+    width: 90%;
+    height: 90%;
+    max-width: 30px;
+    max-height: 30px;
+    object-fit: cover;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.ícone2{
+    width: 90%;
+    height: 90%;
+    margin-left: 10px;
+    max-width: 30px;
+    max-height: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+} 
+
+.ícone3{
+    width: 90%;
+    height: 90%;
+    margin-left: 10px;
+    max-width: 30px;
+    max-height: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+} 
+
+.ícone4{
+    width: 90%;
+    height: 90%;
+    margin-left: 10px;
+    max-width: 30px;
+    max-height: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+} 
+
+.ícone5{
+    width: 90%;
+    height: 90%;
+    margin-left: 10px;
+    max-width: 30px;
+    max-height: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+} 
+
+.ícone6{
+    width: 90%;
+    height: 90%;
+    margin-left: 10px;
+    max-width: 30px;
+    max-height: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+} 
+
+.buto{
+    background-color: #3f3e3e;
+}
+.img_classificacao{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@253&family=Nerko+One&family=Protest+Guerrilla&display=swap');
+
+.body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    background-color: #737373;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    position: relative;
+}
+
+.rate_header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-align: left;
+    color: #52057B;
+    z-index: 1000;
+}
+
+.rate_header h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.rate_header h2 {
+    margin: 0;
+    margin-left: 40px;
+    color: #52057B;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.criarConta {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.criarConta p {
+    margin: 0;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.criarConta_botao {
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.criarConta_botao:hover {
+    background-color: #474747;
+}
+
+.login_container {
+    background-color: #474747;
+    padding: 3%;
+    border-radius: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: auto;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.login_container h2 {
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.form_login {
+    font-size: 17px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #737373;
+    font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #D9D9D9;
+    outline: none;
+}
+
+.p {
+    color: #474747;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.botao {
+    font-size: 16px;
+    padding: 12px;
+    background-color: #52057B;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    width: 150px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.botao:hover {
+    background-color: #690d9b;
+}
+
+.senha {
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    color: #A8A8A8;
+    text-decoration: none;
+    margin-bottom: 5%;
+}
+
+.senha:hover {
+    text-decoration: underline;
+}
+
+.textoSenhaeEmail {
+    margin-top: 10px;
+}
+
+.opcoes_login {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.login {
+    display: inline-block;
+    margin: 5px;
+}
+
+.icone {
+    width: 40px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.login:hover .icone {
+    opacity: 0.8;
+}
+
+.error {
+    margin-top: 10px;
+}
+
+.divAdm {
+    position: absolute;
+    bottom: 4vh;
+    left: 3vw;
+}
+
+
+.buttonAdm {
+    font-size: 16px;
+    padding: 12px;
+    background-color: #52057B;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    width: 200px;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+}
+
+.buttonAdm:hover {
+    background-color: #690d9b;
+}
