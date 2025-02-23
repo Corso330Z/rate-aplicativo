@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./LateralBar.module.css";
+import styles from "./lateralbar.module.css";
 
 const LateralBar = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './page.module.css'
 import Header from '@/components/header/Header.jsx';
-import LateralBar from '../components/lateralbar/LateralBar';
+import LateralBar from '@/components/lateralbar/lateralBar';
 
 const Inicial = () => {
   return (
