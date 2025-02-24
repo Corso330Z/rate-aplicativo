@@ -7,7 +7,7 @@ const LateralBar = () => {
       <div className={styles.lateral_bar}>
         <nav className={styles.nav_botoes_lateral}>
           <div className={styles.botoes_acima}>
-            <a href="#">
+            <a href="/">
               <img className={styles.botoes} src="/img/menu.png" alt="Menu" />
             </a>
             <a href="/paginas/PgnInicial">

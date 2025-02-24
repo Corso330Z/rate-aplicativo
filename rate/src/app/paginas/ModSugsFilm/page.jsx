@@ -1,10 +1,14 @@
+'use client';
 import React from 'react';
 import styles from './mod_sugs_filme.module.css';
+import { useRouter } from "next/navigation";
+import { ArrowLeft } from 'lucide-react';
 
 function ModSugsFilm() {
     // const goBack = () => {
     //     window.history.back();
     // };
+    const router = useRouter();
     const ClassificacaoButton = ({ src, alt, iconClass }) => (
         <button type="button" className={styles.button}>
             <img src={src} alt={alt} className={styles[iconClass]} />
@@ -26,12 +30,12 @@ function ModSugsFilm() {
 
     return (
         <div className={styles.cards}>
-            <div className={styles.botoes}>
-                <div className={styles.seta_voltar}>
-                <a href="/paginas/PgnFilmes">
-                    <button className={styles.back_button}>&#8592;</button>
+            <div className={styles.divVoltar}>
+                <a>
+                    <button onClick={() => window.history.length > 1 ? router.back() : router.push('/')} className={styles.botaoVoltar}>
+                        <ArrowLeft size={35} className={styles.setaVoltar} />
+                    </button>
                 </a>
-                </div>
             </div>
 
             {/* Quando formos fazer o back, temos de achar um jeito de fazer com que na hora de o usuário clicar em modificar, apareça as 

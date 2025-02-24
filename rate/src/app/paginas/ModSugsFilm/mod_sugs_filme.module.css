@@ -9,6 +9,26 @@
     margin: 0;
 }
 
+.botaoVoltar {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    
+}
+
+.setaVoltar {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 30px;
+    left: 45px;
+}
+
 .cards {
     margin-top: 5%;
     width: 100%;

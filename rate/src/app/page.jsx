@@ -27,7 +27,7 @@ const Inicial = () => {
               ))}
             </div>
             <div className={styles.tit_ator}>
-              <h1 className={styles.h1}>Atorjgigkgjkgjkes: </h1>
+              <h1 className={styles.h1}>Atores: </h1>
             </div>
             <div className={styles.card_blocos}>
               {[...Array(21)].map((_, index) => (

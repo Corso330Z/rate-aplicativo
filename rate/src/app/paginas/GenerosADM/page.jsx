@@ -21,7 +21,7 @@ const GenerosADM = () => {
             </div>
             <div className={styles.card_blocos}>
               {[...Array(9)].map((_, index) => (
-                <a key={index} href={`/paginas/Generos`}>
+                <a key={index} href={`/paginas/ClassFilmADM`}>
                   <div className={styles.blocos}></div>
                 </a>
               ))}
@@ -31,7 +31,7 @@ const GenerosADM = () => {
             </div>
             <div className={styles.card_blocos}>
               {[...Array(9)].map((_, index) => (
-                <a key={index} href={`/paginas/Generos`}>
+                <a key={index} href={`/paginas/ClassFilmADM`}>
                   <div className={styles.blocos}></div>
                 </a>
               ))}
@@ -41,7 +41,7 @@ const GenerosADM = () => {
             </div>
             <div className={styles.card_blocos}>
               {[...Array(9)].map((_, index) => (
-                <a key={index} href={`/paginas/Generos`}>
+                <a key={index} href={`/paginas/ClassFilmADM`}>
                   <div className={styles.blocos}></div>
                 </a>
               ))}

@@ -41,7 +41,7 @@ const ClassificacaoAtorADM = () => {
                   <button className={styles.remove_botao}>Remover</button>
                 </div>
                 <div className={styles.modificarr}>
-                  <a href="/paginas/ModSugsFilm">
+                  <a href="/paginas/ModSugsAtor">
                     <button className={styles.mod_button}>Modificar</button>
                   </a>
                 </div>
