@@ -18,7 +18,7 @@ const Favoritos = () => {
               <h1 className={styles.h1}>Atores favoritos:</h1>
             </div>
             <div className={styles.card_blocos}> 
-              {Array(9)
+              {Array(8)
                 .fill(null)
                 .map((_, index) => (
                   <a key={index} href={"/paginas/ClassificacaoAtorADM"}>
@@ -30,7 +30,7 @@ const Favoritos = () => {
               <h1 className={styles.h1}>Filmes favoritos:</h1>
             </div>
             <div className={styles.card_blocos}> 
-              {Array(9)
+              {Array(8)
                 .fill(null)
                 .map((_, index) => (
                   <a key={index} href={"/paginas/ClassFilmADM"}>

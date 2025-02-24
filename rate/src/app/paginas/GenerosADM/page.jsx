@@ -20,7 +20,7 @@ const GenerosADM = () => {
               <h1 className={styles.h1}>Ação:</h1>
             </div>
             <div className={styles.card_blocos}>
-              {[...Array(9)].map((_, index) => (
+              {[...Array(8)].map((_, index) => (
                 <a key={index} href={`/paginas/ClassFilmADM`}>
                   <div className={styles.blocos}></div>
                 </a>
@@ -30,7 +30,7 @@ const GenerosADM = () => {
               <h1 className={styles.h1}>Drama: </h1>
             </div>
             <div className={styles.card_blocos}>
-              {[...Array(9)].map((_, index) => (
+              {[...Array(8)].map((_, index) => (
                 <a key={index} href={`/paginas/ClassFilmADM`}>
                   <div className={styles.blocos}></div>
                 </a>
@@ -40,7 +40,7 @@ const GenerosADM = () => {
               <h1 className={styles.h1}>Para toda família: </h1>
             </div>
             <div className={styles.card_blocos}>
-              {[...Array(9)].map((_, index) => (
+              {[...Array(8)].map((_, index) => (
                 <a key={index} href={`/paginas/ClassFilmADM`}>
                   <div className={styles.blocos}></div>
                 </a>

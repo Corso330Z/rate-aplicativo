@@ -23,7 +23,7 @@ const Generos = () => {
                   <h1 className={styles.h1}>{genre}: </h1>
                 </div>
                 <div className={styles.card_blocos}>
-                  {[...Array(9)].map((_, index) => (
+                  {[...Array(8)].map((_, index) => (
                     <a key={index} href={`/paginas/ClassFilm`}>
                       <div className={styles.blocos}></div>
                     </a>

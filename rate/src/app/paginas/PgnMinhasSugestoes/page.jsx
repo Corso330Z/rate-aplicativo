@@ -38,7 +38,7 @@ const MiSugestao = () => {
               <h1>Sugestões de filme:</h1>
             </div>
             <div className={styles.card_blocos}>
-              {Array.from({ length: 9 }).map((_, index) => (
+              {Array.from({ length: 8 }).map((_, index) => (
                 <a className={styles.arrayMap} key={index} href="/paginas/VisuSugsFilm">
                   <div className={styles.blocos}>
                     <h1 className={styles.titulo}>Os Vingadores</h1>
@@ -51,7 +51,7 @@ const MiSugestao = () => {
               <h1>Sugestões de ator:</h1>
             </div>
             <div className={styles.card_blocos}>
-              {Array.from({ length: 9 }).map((_, index) => (
+              {Array.from({ length: 8 }).map((_, index) => (
                 <a className={styles.arrayMap} key={index} href="/paginas/VisuSugsAtor">
                   <div className={styles.blocos}>
                     <h1 className={styles.titulo}>Os Vingadores</h1>
