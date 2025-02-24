@@ -57,7 +57,7 @@ const VizuSugsFilmesADM = () => {
           </div>
           <div className={styles.movie_details}>
             <div className={styles.part1}>
-              <h1 className={styles.movi_name}>Nome do ator</h1>
+              <h1 className={styles.movi_name}>Nome do filme</h1>
               <div className={styles.movie_image}>
                 <div className={styles.postera_frame}></div>
               </div>

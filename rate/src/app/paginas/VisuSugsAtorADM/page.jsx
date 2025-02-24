@@ -66,7 +66,6 @@ const VizuSugsAtorADM = () => {
                 <div className={styles.parte2}>
                   <p className={styles.nam}>Nome:</p>
                   <p className={styles.nam}>Idade:</p>
-                  <p className={styles.nam}>Nascimento:</p>
                 </div>
                 <div className={styles.adc_remov_button}>
                     <a href="/paginas/AdcAtor">
