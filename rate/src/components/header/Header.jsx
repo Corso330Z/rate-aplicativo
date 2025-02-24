@@ -79,7 +79,7 @@ const Header = () => {
               <a href="/paginas/Perfil">
                 <Image
                   id={styles.perfil}
-                  src="https://img.icons8.com/?size=100&id=85147&format=png&color=737373" 
+                  src="/img/header_perfil.png" 
                   alt="Ícone de perfil"
                   width={24}
                   height={24}
